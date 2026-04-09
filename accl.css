@@ -1,0 +1,157 @@
+body {
+    background-color: #CEBEBE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+    left: 100px;
+}
+
+.macbook-air-1-child {
+    position: absolute;
+    top: 35px;
+    left: 18.66px;
+    border-radius: 50px;
+    background-color: #d9d9d9;
+    width: 1243.4px;
+    height: 151.4px;
+    transform: rotate(0.2deg);
+    transform-origin: 0 0;
+}
+
+.accueil {
+    position: absolute;
+    top: 92px;
+    left: 33px;
+    display: inline-block;
+    width: 247px;
+    height: 39px;
+}
+
+.panier {
+    position: absolute;
+    top: 95px;
+    left: 766px;
+    display: inline-block;
+    width: 159px;
+    height: 37px;
+}
+
+.cnx {
+    position: absolute;
+    top: 91px;
+    left: 1059px;
+    display: inline-block;
+    width: 159px;
+    height: 37px;
+}
+
+.nouveautes {
+    position: absolute;
+    top: 91px;
+    left: 252px;
+    display: inline-block;
+    width: 411px;
+    height: 39px;
+}
+
+.rectangle {
+    position: absolute;
+    top: 208px;
+    left: 25px;
+    border-radius: 30px;
+    background-color: #d9d9d9;
+    width: 1229px;
+    height: 606px;
+}
+
+.derniere-promo {
+    margin: 0;
+}
+
+.derniere-promo-la-container1 {
+    width: 100%;
+}
+
+.derniere-promo-la-container {
+    position: absolute;
+    top: 267px;
+    left: 77px;
+    font-size: 48px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 621px;
+    height: 122px;
+}
+
+.macbook-air-1-inner {
+    position: absolute;
+    top: 389px;
+    left: 65px;
+    border-radius: 30px;
+    background-color: #d1d0d6;
+    width: 683px;
+    height: 344px;
+}
+
+.lorem-ipsum-dolor {
+    position: absolute;
+    top: 415px;
+    left: 111px;
+    font-size: 22px;
+    font-family: Coolvetica;
+    color: #0c0910;
+    display: flex;
+    align-items: center;
+    width: 611px;
+    height: 292px;
+}
+
+.star-icon {
+    position: absolute;
+    top: 248px;
+    left: 766px;
+    border-radius: 14px;
+    width: 321px;
+    height: 313px;
+    object-fit: contain;
+}
+
+.partir-de-400 {
+    position: absolute;
+    top: 376.22px;
+    left: 851px;
+    font-size: 30px;
+    font-family: Coolvetica;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 136.4px;
+    height: 82px;
+    transform: rotate(-9.8deg);
+    transform-origin: 0 0;
+}
+
+.image-2024-10-15-143353130-rem-icon {
+    position: absolute;
+    top: 208px;
+    left: 503px;
+    width: 949px;
+    height: 592px;
+    object-fit: cover;
+}
+
+.groupe {
+    width: 100%;
+    position: relative;
+    background-color: #cebebe;
+    height: 832px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 32px;
+    color: #6d2e46;
+    font-family: 'Karmatic Arcade';
+}

@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'DS-DIGIT.TTF';
+    src: url('./font/DS-DIGIT.TTF');
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #4d9865;
+    font-size: 20px;
+}
+
+DIV {
+    background-color: #94C9A9;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border-radius: 5%;
+    font-family: 'DS-DIGIT.TTF';
+}
+
+DIV h1 {
+    text-align: center;
+}
+
+DIV form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input {
+    width: 50%;
+    margin: 5px 0px;
+    padding: 5px 5px;
+    outline: 0;
+    border: 2px #000;
+    border-radius: 20px;
+}
+
+form input[type='submit'] {
+    background-color: beige;
+    border: 0;
+    color: black;
+    margin-top: 15px;
+    padding: 6px 0px;
+    font-family: 'DS-DIGIT.TTF';
+}
+
+p {
+    font-family: ui-serif;
+}

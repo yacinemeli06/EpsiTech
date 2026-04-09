@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'DS-DIGIT.TTF';
+    src: url('./font/DS-DIGIT.TTF');
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #94C9A9;
+    border-radius: 10px;
+    width: 20%;
+    margin: 10%;
+}
+
+body {
+    font-family: 'DS-DIGIT.TTF';
+    background-color: #4d9865;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #D9D9D9;
+}
+
+.connection {
+    font-family: 'Digital Numbers';
+    text-align: center;
+    margin: 5px;
+    font-size: 45px;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sinscrire {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+    font-family: 'DS-DIGIT.TTF';
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}

@@ -1,0 +1,87 @@
+body {
+    background-color: #CEBEBE;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.text {
+    font-family: 'Karmatic Arcade';
+}
+
+#groupe {
+    display: flex;
+    width: 100%;
+    position: center;
+    justify-content: space-between;
+    background-color: #D9D9D9;
+    font-size: 29px;
+    color: #6d2e46;
+    border-radius: 25px;
+}
+
+
+
+.text {
+    color: #6d2e46;
+}
+
+#hey {
+    display: inline-block;
+    align-items: center;
+}
+
+.prom {
+    font-size: 43px;
+    font-family: 'Karmatic Arcade';
+    color: #6d2e46;
+}
+
+.bla {
+    position: left;
+    font-size: 25px;
+    font-family: Coolvetica;
+    color: black;
+    align-items: center;
+    width: 611px;
+
+    background-color: #D9D9D9;
+    border-radius: 19px;
+}
+
+#taswira {
+    width: 5%;
+}
+
+.pic {
+    width: 30%;
+    position: absolute;
+    right: 12%;
+    /* Pushes the image to the right */
+    top: 50%;
+    /* Vertically centers the image */
+    transform: translateY(-50%);
+}
+
+
+
+button {
+    font-size: 20px;
+    font-family: 'Coolvetica';
+    border: none;
+    width: 160px;
+    height: 60px;
+    background-color: #A26769;
+    color: white;
+    border-radius: 25px;
+    margin: 15px 15px 0 110px;
+    /* box-shadow: 0 0 30px 1px #0000003b; */
+    transition: .5s;
+
+    &:hover {
+        box-shadow: 0 0 30px 1px #0000003b;
+        background-color: #ffffffe2;
+        color: #A26769;
+    }
+}

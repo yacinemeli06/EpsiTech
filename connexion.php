@@ -11,7 +11,7 @@
 <body>
     <DIV>
         <h1>CONNEXION</h1>
-        <form action="config.php" method="POST">
+        <form action="login.php" method="POST">
             <label>Adresse Mail</label>
             <input type="email" name="email" require>
             <label>Mots de passe </label>

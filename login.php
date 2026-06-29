@@ -10,6 +10,7 @@ try {
             $user = $stmt->fetch();
             if ($user && password_verify($_POST['mdp'], $user['mot de passe'])) {
                 $_SESSION['user'] = $user['nom'];
+                $_SESSION['user_id'] = $user['id'];
                 header("location: accueil.html");
                 exit;
             } else {
